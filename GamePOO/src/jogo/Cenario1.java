@@ -55,6 +55,14 @@ public class Cenario1 {
 			janela.update();
 			cena.draw();
 			jogador.draw();
+			
+			
+			try {
+				Thread.currentThread().sleep(35);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 
 		}
 
